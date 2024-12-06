@@ -629,9 +629,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 441bcd866ad50724b9cabc13390cffd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tile: {fileID: 0}
-  board: {fileID: 0}
-  trackingPiece: {fileID: 0}
+  tile: {fileID: 11400000, guid: 83e2b6b1282cd5a46a26f6bf3f0f553b, type: 2}
+  board: {fileID: 719872485}
+  trackingPiece: {fileID: 719872486}
 --- !u!1 &1246819210
 GameObject:
   m_ObjectHideFlags: 0
