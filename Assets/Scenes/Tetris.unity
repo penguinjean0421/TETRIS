@@ -369,6 +369,7 @@ GameObject:
   - component: {fileID: 719872484}
   - component: {fileID: 719872483}
   - component: {fileID: 719872485}
+  - component: {fileID: 719872486}
   m_Layer: 0
   m_Name: Board
   m_TagString: Untagged
@@ -416,21 +417,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20f4d7d46db599b459a7335649fe696d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPosition: {x: -1, y: 8, z: 0}
   tetrominoes:
   - tetromino: 0
-    tile: {fileID: 0}
+    tile: {fileID: 11400000, guid: c7f6264b22a495c459d35e17f20da663, type: 2}
   - tetromino: 1
-    tile: {fileID: 0}
+    tile: {fileID: 11400000, guid: a7e1195bd2787cb41979e804f5e94749, type: 2}
   - tetromino: 2
-    tile: {fileID: 0}
+    tile: {fileID: 11400000, guid: 296a7ba12e6ab4d4694e488514aa449b, type: 2}
   - tetromino: 3
-    tile: {fileID: 0}
+    tile: {fileID: 11400000, guid: 2fd88c0fa1db11e41b55bbacebcb3d34, type: 2}
   - tetromino: 4
-    tile: {fileID: 0}
+    tile: {fileID: 11400000, guid: 53cbfb09e3b08e74aac8c9c73431a5f6, type: 2}
   - tetromino: 5
-    tile: {fileID: 0}
+    tile: {fileID: 11400000, guid: b99ba807a7ca5e64f8eb0bd5fb684d71, type: 2}
   - tetromino: 6
-    tile: {fileID: 0}
+    tile: {fileID: 11400000, guid: 31da14d9b542d64459b02feb4169d7f1, type: 2}
+--- !u!114 &719872486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719872482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b8f04c313f3cf4e9e31f41ca8e6d7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &957972298
 GameObject:
   m_ObjectHideFlags: 0
